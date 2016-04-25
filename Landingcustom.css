@@ -1,7 +1,7 @@
 #logom{
 	font-family: Skinny;
 	font-size: 15vw;
-	margin-top: 15vw;
+	margin-top: center;
 	color: white;
 
 }
@@ -9,28 +9,33 @@
 #scrolldownm{
 
 	font-size: 1vw;
-	margin-top: 15vw;
+	
 	transform: scale(3,2);
+	margin: bottom;
+
 	color: white;
 }
 .header{
 	background-image: url("Backgroundtop2.jpeg");
-	-webkit-filter: grayscale(100%);
+	-webkit-filter: grayscale(80%);
 	
 
 }
 
 #lettertype{
 	font-family: Audrey;
-	font-size:3vw;
+	font-size:4vw;
 	margin-top: -9vw;
+
 
 
 
 }
 #lettertype2{
 	font-family: Audrey;
-	font-size:2vw;
+	font-size:3vw;
+	margin:center;
+
 
 }
 
@@ -42,13 +47,11 @@
 
 #megamaartje {
     -webkit-filter: grayscale(0%);
-	
+	box-shadow: 
     height: 15vw;
     width: 15vw;
     border-radius: 50%;
-    margin-left: 1vw;
-    margin-top: center;
-    margin-right: 80vw;
+   margin-right:center;
 }
 
 #dezemoetzwart{
