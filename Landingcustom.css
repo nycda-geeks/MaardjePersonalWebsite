@@ -1,3 +1,10 @@
+.header{
+	background-image: url("Backgroundtop2.jpeg");
+	-webkit-filter: grayscale(80%);
+	
+
+}
+
 #logom{
 	font-family: Skinny;
 	font-size: 15vw;
@@ -6,26 +13,111 @@
 
 }
 
+.text-vertical-center{
+	padding-top: 250px;
+	padding-bottom: 100px;
+	
+}
+
+.btn.btn-circle.page-scroll{
+	margin-top: 80px;
+}
+
 #scrolldownm{
 
-	font-size: 1vw;
-	
-	transform: scale(3,2);
-	margin: bottom;
-
+	font-size: 4vw;
 	color: white;
+	margin-top:1vw;
+	margin-left: 2vw;
 }
-.header{
-	background-image: url("Backgroundtop2.jpeg");
-	-webkit-filter: grayscale(80%);
+
+
+.btn {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-default {
+    border: 1px solid #42dca3;
+    color: #42dca3;
+    background-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid #42dca3;
+    outline: 0;
+    color: #000;
+    background-color: #42dca3;
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 100%!important;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255,255,255,.1);
+}
+
+.btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.btn-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}                    <a href="#services" onclick = $("#menu-close").click(); >My Education</a>
+
+
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 30px;
+    
+}
+
+
+
+
 	
 
-}
+	
+
+
 
 #lettertype{
 	font-family: Audrey;
 	font-size:4vw;
-	margin-top: -9vw;
+	
 
 
 
@@ -44,14 +136,22 @@
 	background-image: url("achtergrondedu4.jpeg");
 
 }
+.about {
+    padding: 50px 0;
+    padding-top: 35px;
+    padding-right: 0px;
+    padding-bottom: 35px;
+    padding-left: 0px;
+    height:150px;;
+}
 
 #megamaartje {
     -webkit-filter: grayscale(0%);
-	box-shadow: 
+	 
     height: 15vw;
     width: 15vw;
     border-radius: 50%;
-   margin-right:center;
+   margin:center;
 }
 
 #dezemoetzwart{
